@@ -17,6 +17,7 @@ const GlobalProvider = ({children }) => {
       const url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list';
       const {data} = await axios(url);
       setCategorias(data.drinks);
+      console.log(categorias);
 
     } catch (error) {
       console.log(error);

@@ -72,8 +72,7 @@ export const Form = () => {
                 )
             }
             
-            <option value="vodka">Vodka</option>
-            
+
           </select>
         </div>
         <div className="m-5">
