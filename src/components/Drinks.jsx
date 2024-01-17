@@ -7,7 +7,7 @@ export const Drinks = () => {
 
     const {bebidas, setBebidas} = useBebidasGlobalState();
     
-    console.log(bebidas);
+    
   return (
     <div>
         <h1 className='text-center font-bold text-red-500 text-3xl uppercase mt-5'>Drinks Founded:</h1>
